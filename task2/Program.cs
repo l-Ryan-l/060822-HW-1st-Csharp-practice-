@@ -12,9 +12,9 @@ int number2 = int.Parse(Console.ReadLine()!);
 
 if (number1 > number2)
 {
-    Console.Write("Первое число - больше");
+    Console.Write("Первое число больше второго.");
 }
 else 
 {
-    Console.Write("Второе число - больше");
+    Console.Write("Второе число больше второго.");
 }
