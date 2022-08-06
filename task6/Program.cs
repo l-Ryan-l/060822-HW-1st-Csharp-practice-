@@ -2,3 +2,12 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+Console.WriteLine("Введите число: ");
+int userNumber = int.Parse(Console.ReadLine()!);
+
+if (userNumber % 2 == 0)
+Console.Write("Число является четным");
+
+else 
+Console.Write("Число является нечетным");
